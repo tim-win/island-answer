@@ -1,6 +1,6 @@
 # Number of Islands
 
-When searching the internet, I came across this gem of a whiteboarding challenge for interviews ((source)[https://github.com/kdn251/interviews]):
+When searching the internet, I came across this gem of a whiteboarding challenge for interviews ([source](https://github.com/kdn251/interviews)):
 
 ```
 // Given a 2d grid map of '1's (land) and '0's (water), count the number of islands. An
