@@ -3,7 +3,7 @@ grid = [
     [1, 0, 0],
     [0, 1, 1]]
 
-grid = [
+grid = [  # overwrite simple grid with something more complicated to test.
     [1, 1, 1],
     [1, 0, 0],
     [1, 0, 1],
@@ -16,13 +16,13 @@ grid = [
 
 
 #plan:
-# while land
-#   search for first land
-#   check if land in any existing islands
+# for plot in land
+#   if plot is land, score.
+#   check if land in any adjacent islands
 #   start a new set of coords (tuples) with that land in i
 #   check adjancent spots
-# add adjacent spot to land mass
-# recurse until land is dried up
+#     add adjacent spot to land mass
+#     recurse until land mass is dried up
 
 land_masses = []
 checked = set()
